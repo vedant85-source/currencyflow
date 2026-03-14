@@ -7,6 +7,7 @@ import { Footer } from '@/components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+  verification: { google: 'rJmZOgAbc9n6NyN0xbLh5XolVdA2dH1FgNKoUwKFleo' },
   title: 'CurrencyFlow – Real-Time Global Currency Converter',
   description: 'Convert currencies instantly with live exchange rates. View historical trends, interactive charts, and currency information on CurrencyFlow.',
   keywords: ['currency converter', 'exchange rates', 'forex', 'money conversion', 'live rates', 'currency exchange'],
