@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
@@ -44,6 +45,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" />
       </head>
+     <Analytics />
       <body className={`${inter.className} min-h-screen bg-gray-50 dark:bg-gray-950`}>
         <Header />
         <main className="flex-1">{children}</main>
